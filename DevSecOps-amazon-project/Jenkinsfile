@@ -19,7 +19,7 @@ pipeline {
 
         stage("Git Checkout") {
             steps {
-                git branch: 'main', url: 'https://github.com/Paras116255/DevSecOps-amazon-project.git'
+                git branch: 'main', url: 'https://github.com/developerdevanshu/amazon-eks-deployment.git'
             }
         }
 
